@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habit Tracker</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    font-size: 26px;
+}
+
+.habitcolumn {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.habit {
+    background: #1e293b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.habit h3 {
+    margin: 0 0 10px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+}
+
+.days input {
+    display: none;
+}
+
+.days label {
+    width: 35px;
+    height: 35px;
+    background: #334155;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.days input:checked + label {
+    background: #22c55e;
+}
+
+.days label:hover {
+    background: #475569;
+}
+
+</style>
+</head>
+
+<body>
+
+<header><h1>Habit Tracker</header></h1>
+<header><h6>made by anish sakpal</h6></header>
+
+<div class="habitcolumn">
+
+<div class="habit">
+<h3>Workout</h3>
+<div class="days">
+<input type="checkbox" id="w1"><label for="w1"></label>
+<input type="checkbox" id="w2"><label for="w2"></label>
+<input type="checkbox" id="w3"><label for="w3"></label>
+<input type="checkbox" id="w4"><label for="w4"></label>
+<input type="checkbox" id="w5"><label for="w5"></label>
+<input type="checkbox" id="w6"><label for="w6"></label>
+<input type="checkbox" id="w7"><label for="w7"></label>
+<input type="checkbox" id="w8"><label for="w8"></label>
+<input type="checkbox" id="w9"><label for="w9"></label>
+<input type="checkbox" id="w10"><label for="w10"></label>
+<input type="checkbox" id="w11"><label for="w11"></label>
+<input type="checkbox" id="w12"><label for="w12"></label>
+<input type="checkbox" id="w13"><label for="w13"></label>
+<input type="checkbox" id="w14"><label for="w14"></label>
+<input type="checkbox" id="w15"><label for="w15"></label>
+<input type="checkbox" id="w16"><label for="w16"></label>
+<input type="checkbox" id="w18"><label for="w18"></label>
+<input type="checkbox" id="w19"><label for="w19"></label>
+<input type="checkbox" id="w20"><label for="w20"></label>
+<input type="checkbox" id="w22"><label for="w22"></label>
+<input type="checkbox" id="w23"><label for="w23"></label>
+<input type="checkbox" id="w24"><label for="w24"></label>
+<input type="checkbox" id="w25"><label for="w25"></label>
+<input type="checkbox" id="w26"><label for="w26"></label>
+<input type="checkbox" id="w27"><label for="w27"></label>
+<input type="checkbox" id="w28"><label for="w28"></label>
+<input type="checkbox" id="w29"><label for="w29"></label>
+<input type="checkbox" id="w30"><label for="w30"></label>
+<input type="checkbox" id="w31"><label for="w31"></label>
+
+
+</div>
+</div>
+
+<div class="habit">
+<h3>Sleep cycle(circadian rythm)</h3>
+<div class="days">
+<input type="checkbox" id="s1"><label for="s1"></label>
+<input type="checkbox" id="s2"><label for="s2"></label>
+<input type="checkbox" id="s3"><label for="s3"></label>
+<input type="checkbox" id="s4"><label for="s4"></label>
+<input type="checkbox" id="s5"><label for="s5"></label>
+<input type="checkbox" id="s6"><label for="s6"></label>
+<input type="checkbox" id="s7"><label for="s7"></label>
+<input type="checkbox" id="s7"><label for="s8"></label>
+<input type="checkbox" id="s8"><label for="s9"></label>
+<input type="checkbox" id="s9"><label for="s10"></label>
+<input type="checkbox" id="s10"><label for="s11"></label>
+<input type="checkbox" id="s11"><label for="s12"></label>
+<input type="checkbox" id="s12"><label for="s13"></label>
+<input type="checkbox" id="s13"><label for="s14"></label>
+<input type="checkbox" id="s14"><label for="s14"></label>
+<input type="checkbox" id="s15"><label for="s15"></label>
+<input type="checkbox" id="s16"><label for="s16"></label>
+<input type="checkbox" id="s17"><label for="s17"></label>
+<input type="checkbox" id="s18"><label for="s18"></label>
+<input type="checkbox" id="s19"><label for="s19"></label>
+<input type="checkbox" id="s20"><label for="s20"></label>
+<input type="checkbox" id="s21"><label for="s21"></label>
+<input type="checkbox" id="s22"><label for="s22"></label>
+<input type="checkbox" id="s23"><label for="s23"></label>
+<input type="checkbox" id="s24"><label for="s24"></label>
+<input type="checkbox" id="s25"><label for="s25"></label>
+<input type="checkbox" id="s26"><label for="s26"></label>
+<input type="checkbox" id="s27"><label for="s27"></label>
+<input type="checkbox" id="s28"><label for="s28"></label>
+<input type="checkbox" id="s29"><label for="s29"></label>
+</div>
+</div>
+
+<div class="habit">
+<h3>Reading</h3>
+<div class="days">
+<input type="checkbox" id="r1"><label for="r1"></label>
+<input type="checkbox" id="r2"><label for="r2"></label>
+<input type="checkbox" id="r3"><label for="r3"></label>
+<input type="checkbox" id="r4"><label for="r4"></label>
+<input type="checkbox" id="r5"><label for="r5"></label>
+<input type="checkbox" id="r6"><label for="r6"></label>
+<input type="checkbox" id="r7"><label for="r7"></label>
+<input type="checkbox" id="r8"><label for="r8"></label>
+<input type="checkbox" id="r9"><label for="r9"></label>
+<input type="checkbox" id="r10"><label for="r10"></label>
+<input type="checkbox" id="r11"><label for="r11"></label>
+<input type="checkbox" id="r12"><label for="r12"></label>
+<input type="checkbox" id="r13"><label for="r13"></label>
+<input type="checkbox" id="r14"><label for="r14"></label>
+<input type="checkbox" id="r15"><label for="r15"></label>
+<input type="checkbox" id="r16"><label for="r16"></label>
+<input type="checkbox" id="r18"><label for="r18"></label>
+<input type="checkbox" id="r19"><label for="r19"></label>
+<input type="checkbox" id="r20"><label for="r20"></label>
+<input type="checkbox" id="r22"><label for="r22"></label>
+<input type="checkbox" id="r23"><label for="r23"></label>
+<input type="checkbox" id="r24"><label for="r24"></label>
+<input type="checkbox" id="r25"><label for="r25"></label>
+<input type="checkbox" id="r26"><label for="r26"></label>
+<input type="checkbox" id="r27"><label for="r27"></label>
+<input type="checkbox" id="r28"><label for="r28"></label>
+<input type="checkbox" id="r29"><label for="r29"></label>
+<input type="checkbox" id="r30"><label for="r30"></label>
+<input type="checkbox" id="r31"><label for="r31"></label>
+</div>
+</div>
+
+
+<div class="habit">
+<h3>limit screentime and no doomscrolling</h3>
+<div class="days">
+<input type="checkbox" id="l1"><label for="l1"></label>
+<input type="checkbox" id="l2"><label for="l2"></label>
+<input type="checkbox" id="l3"><label for="l3"></label>
+<input type="checkbox" id="l4"><label for="l4"></label>
+<input type="checkbox" id="l5"><label for="l5"></label>
+<input type="checkbox" id="l6"><label for="l6"></label>
+<input type="checkbox" id="l7"><label for="l7"></label>
+<input type="checkbox" id="l8"><label for="l8"></label>
+<input type="checkbox" id="l9"><label for="l9"></label>
+<input type="checkbox" id="l10"><label for="l10"></label>
+<input type="checkbox" id="l11"><label for="l11"></label>
+<input type="checkbox" id="l12"><label for="l12"></label>
+<input type="checkbox" id="l13"><label for="l13"></label>
+<input type="checkbox" id="l14"><label for="l14"></label>
+<input type="checkbox" id="l15"><label for="l15"></label>
+<input type="checkbox" id="l16"><label for="l16"></label>
+<input type="checkbox" id="l18"><label for="l18"></label>
+<input type="checkbox" id="l19"><label for="l19"></label>
+<input type="checkbox" id="l20"><label for="l20"></label>
+<input type="checkbox" id="l22"><label for="l22"></label>
+<input type="checkbox" id="l23"><label for="l23"></label>
+<input type="checkbox" id="l24"><label for="l24"></label>
+<input type="checkbox" id="l25"><label for="l25"></label>
+<input type="checkbox" id="l26"><label for="l26"></label>
+<input type="checkbox" id="l27"><label for="l27"></label>
+<input type="checkbox" id="l28"><label for="l28"></label>
+<input type="checkbox" id="l29"><label for="l29"></label>
+<input type="checkbox" id="l30"><label for="l30"></label>
+<input type="checkbox" id="l31"><label for="l31"></label>
+</div>
+</div>
+
+
+
+
+<div class="habit">
+<h3>journaling</h3>
+<div class="days">
+<input type="checkbox" id="j1"><label for="j1"></label>
+<input type="checkbox" id="j2"><label for="j2"></label>
+<input type="checkbox" id="j3"><label for="j3"></label>
+<input type="checkbox" id="j4"><label for="j4"></label>
+<input type="checkbox" id="j5"><label for="j5"></label>
+<input type="checkbox" id="j6"><label for="j6"></label>
+<input type="checkbox" id="j7"><label for="j7"></label>
+<input type="checkbox" id="j8"><label for="j8"></label>
+<input type="checkbox" id="j9"><label for="j9"></label>
+<input type="checkbox" id="j10"><label for="j10"></label>
+<input type="checkbox" id="j11"><label for="j11"></label>
+<input type="checkbox" id="j12"><label for="j12"></label>
+<input type="checkbox" id="j13"><label for="j13"></label>
+<input type="checkbox" id="j14"><label for="j14"></label>
+<input type="checkbox" id="j15"><label for="j15"></label>
+<input type="checkbox" id="j16"><label for="j16"></label>
+<input type="checkbox" id="j18"><label for="j18"></label>
+<input type="checkbox" id="j19"><label for="j19"></label>
+<input type="checkbox" id="j20"><label for="j20"></label>
+<input type="checkbox" id="j22"><label for="j22"></label>
+<input type="checkbox" id="j23"><label for="j23"></label>
+<input type="checkbox" id="j24"><label for="j24"></label>
+<input type="checkbox" id="j25"><label for="j25"></label>
+<input type="checkbox" id="j26"><label for="j26"></label>
+<input type="checkbox" id="j27"><label for="j27"></label>
+<input type="checkbox" id="j28"><label for="j28"></label>
+<input type="checkbox" id="j29"><label for="j29"></label>
+<input type="checkbox" id="j30"><label for="j30"></label>
+<input type="checkbox" id="j31"><label for="j31"></label>
+</div>
+</div>
+
+
+<div class="habit">
+<h3>harmonica</h3>
+<div class="days">
+<input type="checkbox" id="h1"><label for="h1"></label>
+<input type="checkbox" id="h2"><label for="h2"></label>
+<input type="checkbox" id="h3"><label for="h3"></label>
+<input type="checkbox" id="h4"><label for="h4"></label>
+<input type="checkbox" id="h5"><label for="h5"></label>
+<input type="checkbox" id="h6"><label for="h6"></label>
+<input type="checkbox" id="h7"><label for="h7"></label>
+<input type="checkbox" id="h8"><label for="h8"></label>
+<input type="checkbox" id="h9"><label for="h9"></label>
+<input type="checkbox" id="h10"><label for="h10"></label>
+<input type="checkbox" id="h11"><label for="h11"></label>
+<input type="checkbox" id="h12"><label for="h12"></label>
+<input type="checkbox" id="h13"><label for="h13"></label>
+<input type="checkbox" id="h14"><label for="h14"></label>
+<input type="checkbox" id="h15"><label for="h15"></label>
+<input type="checkbox" id="h16"><label for="h16"></label>
+<input type="checkbox" id="h18"><label for="h18"></label>
+<input type="checkbox" id="h19"><label for="h19"></label>
+<input type="checkbox" id="h20"><label for="h20"></label>
+<input type="checkbox" id="h22"><label for="h22"></label>
+<input type="checkbox" id="h23"><label for="h23"></label>
+<input type="checkbox" id="h24"><label for="h24"></label>
+<input type="checkbox" id="h25"><label for="h25"></label>
+<input type="checkbox" id="h26"><label for="h26"></label>
+<input type="checkbox" id="h27"><label for="h27"></label>
+<input type="checkbox" id="h28"><label for="h28"></label>
+<input type="checkbox" id="h29"><label for="h29"></label>
+<input type="checkbox" id="h30"><label for="h30"></label>
+<input type="checkbox" id="h31"><label for="h31"></label>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
